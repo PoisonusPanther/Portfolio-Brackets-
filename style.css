@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background: linear-gradient(#78e3d5 0%, #4b6965 100%);
+}
+
+#MyPhoto {
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+#pmyself {
+    font-size: 20px;
+}
+
+#Myself {
+    font-size: 35px;
+}
+
+#Projects {
+    font-size: 35px;
+}
+
+#pprojects {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: 300;
+    color: azure;
+}
+
+.line {
+    margin: 8px auto;
+    height: 6px;
+    width: 100px;
+    background-color: black;
+}
+
+#img {
+    transition: transform .2s;
+}
+
+#img:hover {
+    transform: scale(0.9);
+}
+
+#Apps {
+    height: 800px;
+    width: 100%;
+    color: antiquewhite;
+}
+
+#Games {
+    height: 800px;
+    width: 100%;
+    color: aqua
+}
+
+#Bot {
+    color: aquamarine height: 800px;
+    width: 100%;
+}
+
+
+html {
+    scroll-behavior: smooth
+}
+
+.menu {
+    margin-top: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: darkgoldenrod;
+    color: azure !important;
+}
+
+.links:hover {
+    background-color: crimson;
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: azure !important;
+}
+
+.links {
+    padding-right: 25px;
+    padding-left: 25px;
+    color: azure !important;
+    font-family: sriracha;
+    font-size: 20px;
+    display: inline;
+    text-shadow: 2px 2px aqua;
+}
+#i {
+    transition: transform .2s;
+}
+
+#i:hover {
+    transform: scale(0.9);
+}
+#GameCarousel{
+    background-color: aqua;
+}
+a{
+    text-align: center;
+}
